@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  background-color: grey;
+}
+.kekoLogo {
+  display: flex;
+  justify-content: center;
+}
+.kekoLogo img {
+  height: 20vmin;
+  padding-top: 10vmin;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  opacity: 0.2;
+}
+.slogan h1{
+  font-family: 'Oswald';
+  padding-left: 8vmin;
+  padding-top: 30vmin;
+  color: #1f266d
+}
+
+.actionCall {
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald';
+  color: #1f266d;
+  font-size: 6vmin;
+  font-weight: bold;
+  padding-top: 9vmin;
+  text-align: center;
+}
